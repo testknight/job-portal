@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Job Seeker</title>
+   <!--- @@@@@@@@@@@@@@@@--->
+    <link href="jobseeker1.2.css" rel="stylesheet">
+    
+    <script src="https://use.fontawesome.com/2d679cd617.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900" rel="stylesheet">
+   
+</head>
+<!--- main navigation--->
+<body >
+    <header>
+    
+	      <div class="container ">
+         <div class="row">
+        <div class="col-lg-2 ">
+	<img class="list-inline img-responsive" src="images/logo-portfolio.jpg"  width="155" height="46" alt="job seeker logo"/>
+             </div>
+        
+   	           <div class="col-lg-7 col-sm-4">
+                   <nav class="navbar1 ">
+                   <ul  class="list-inline">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="candidates.html">FOR CANDIDATES <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="employees.html">FOR EMPLOYEES <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="pages.html">PAGES <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="blogs.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                   </nav>   
+                </div>
+             
+            <div class="col-lg-3  ">
+                <nav class="navbar2 ">
+            <ul class="list-inline ">
+                <li><i class="fa fa-sign-in" aria-hidden="true"></i><a href="signup.html"> SIGNUP</a></li>
+                <li><a href="login.html"><button >LOGIN</button></a></li>
+            </ul>
+                </nav>
+            </div>
+            
+         </div>
+      </div>     
+ </header><br/><br/><br/>
+    
+    <!--- top search bar --->
+    
+<div class="container-fluid">
+    
+	<section class="showcase">
+        <div id="career">
+         <div class="container">
+		  
+                <h2 class="text-center">FIND THE CAREER YOU DESERVE</h2>
+    		      <p class="text-center">Your job search starts and ends with us Or browse job offers by.</p><br/>
+        		  <form>
+                    <div class="form-group " for="inputlg">
+                        <div class="row">
+                        <div class="col-lg-3 col-md-8 col-sm-6">    
+                        <input type="text"  class="form-control input-lg" id="keywords" placeholder="keywords"/>
+                        </div>
+                        <div class="col-lg-3 col-md-8 col-sm-6">    
+                        <input type="text"  class="form-control input-lg" id="location" placeholder="location"/>
+                        </div>
+                        <div class="col-lg-3 col-md-8 col-sm-6">  
+                            
+                        <input type="text"  class="form-control input-lg" id="Any Category" placeholder="Any Category"/>
+                        </div>
+                        <div class="col-lg-3">    
+                        <button type="button" class="btn btn-primary input-lg">search now</button>
+                        </div>
+                    </div>
+                  </div>        
+        		</form>
+		      
+            </div>
+         </div>
+    
+</section>
+</div>
+  
+    <!--- middle search bar --->
+
+    <div class="container-fluid" >
+        
+	<div class="mainlist">
+	   <div id="joblist">
+		<h3 class="text-center">MOST AMAZING FEATURED JOBS LISTED</h3>
+        <p class="text-center">Every single one of our job has some kind of flexibity option - such a telecommuting a part-time schedule or a flexible or flextime schedule.</p>
+        <div id="form">
+		<form>
+            <div class="form-group" for="input-lg">
+                <div class="row col-lg-offset-2">
+                        <div class="col-lg-4 col-sm-4">
+                        <input type="text" class="form-control input-lg" id="keywords" placeholder="Keywords" >
+                        </div>
+                        <div class="col-lg-4 col-sm-4">
+                        <input type="text" class="form-control input-lg" id="location" placeholder="location" >
+                        </div>
+                        <div class="col-lg-2 ">
+                        <button type="button" class="btn btn-primary input-lg">search now</button>
+                        </div>
+                 </div>
+            </div>
+		</form>
+    <div id="radio">
+			<input type="checkbox" id= "Full Time" name="Time" checked /><label>Full Time</label>
+			<input type="checkbox" id = "Part Time" name="Time" /><label>Part Time</label>
+			<input type="checkbox" id = "Freelancer" name="Time" /><label>Freelancer</label>
+			<input type="checkbox" id = "Remote" name="Time" /><label>Remote</label>
+		</div>
+       </div>
+ </div>
+
+    <!--- job listing  --->
+        
+<div class="container">
+    <div id="listing">
+    <div class="table-responsive">     
+    <table class="table">  
+        <tbody>
+        <tr>
+            <td><span id=inbox1></span>
+            <h4 class="text-center"><b>Senior Software Engineer - Andriod</b></h4><p style="color:blue;">Ironhack</p></td> 
+            <td style=vertical-align:middle;><i class="fa fa-map-marker" aria-hidden="true"></i> Paris, London</td>
+            <td style=vertical-align:middle;><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Dayago</td>
+            <td> <button type="button" class="btn btn-default">View A Job</button><br/><br></td> <span id="buttondata1">Fulltime</span> 
+        </tr>
+        <tr>
+            <td><span id=inbox1></span>
+            <h4><b>Webdevelopment Summer Internship</b></h4><p style="color:blue;">Rested Inc</p></td> 
+            <td style=vertical-align:middle;><i class="fa fa-map-marker" aria-hidden="true"></i> Newyork, USA</td> 
+            <td style=vertical-align:middle;><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Dayago</td> 
+            <td><button type="button" class="btn btn-default">View A Job</button><br/><br></td>  <span id="buttondata2">Fulltime</span>  
+        </tr>
+        <tr>
+            <td><span id=inbox1></span>
+            <h4><b>Platform/Backend Engineer</b></h4><p style="color:blue;">NimbleRx</p></td> 
+            <td style=vertical-align:middle;><i class="fa fa-map-marker" aria-hidden="true"></i> Arizona, USA</td> 
+            <td style=vertical-align:middle;><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Weekago</td> 
+            <td><button type="button" class="btn btn-primary">View A Job</button><br/><br></td>  <span id="buttondata3">Fulltime</span>   
+        </tr>
+        <tr>
+            <td><span id=inbox1></span>
+            <h4><b>Front-End Developer</b></h4><p style="color:blue;">Hotalcloud</p></td> 
+            <td style=vertical-align:middle;><i class="fa fa-map-marker" aria-hidden="true"></i> San Diego</td> 
+            <td style=vertical-align:middle;><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Weekago</td> 
+            <td><button type="button" class="btn btn-default">View A Job</button><br/><br></td> <span id="buttondata4">Fulltime</span>    
+        </tr>
+        <tr>
+            <td><span id=inbox1></span>
+            <h4><b>Social Media Specialist</b></h4><p style="color:blue;">Ironhack</p></td> 
+            <td style=vertical-align:middle;><i class="fa fa-map-marker" aria-hidden="true"></i> Philadelpia</td> 
+            <td style=vertical-align:middle;><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Monthago</td> 
+            <td><button type="button" class="btn btn-default">View A Job</button><br/><br/></td> <span id="buttondata5">Fulltime</span>    
+        </tr>
+        </tbody>
+         </table>            
+            </div>
+                <div class="text-center">
+                    <div id="loadmore">
+                        <button type="button" class="btn btn-default">Load more</button>
+                    </div>
+                    </div>
+                    <div/>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <!--- socail media companies --->
+    
+   <div class="container"> 
+    <div class="icons">
+        <h3 class="text-center">COMPANIES REGISTER</h3><br/>
+        <p class="text-center">Jobs of some kind of flexibility option - such as telecommuting, a part-time Every single one of our jobs.</p>
+        <ul class="list-inline">
+         <li><a href="#"><img class="img-responsive" src="images/icon-disqus.jpg" width="144" height="25" alt="disque icon"/></a></li>
+        <li><a href="#"><img class="img-responsive" src="images/icon-optimizely.jpg" width="142" height="30" alt="optimizely icon"/></a></li>
+        <li><a href="#"><img class="img-responsive" src="images/icon-dribbble.jpg" width="142" height="34" alt="dribbble icon"/></a></li>
+        <li><a href="#"><img class="img-responsive" src="images/icon-desk.jpg" width="98" height="40" alt="desk icon"/></a></li>
+        <li><a href="#"><img class="img-responsive" src="images/icon-dolby.jpg" width="136" height="25" alt="dolby icon"/></a></li>
+        </ul>
+    </div>
+   </div> 
+    
+     <!--- bottom search bar --->
+  
+<div class="container-fluid"> 
+    
+    <div id="banner" class="img-responsive">
+        <div class=container>
+        
+    	<div id="bluebanner">
+            <span ><h3 style="text-align: left;">USED BY OVER 25,000 OF THE WORLD'S LEADING DIGITAL AGENCIES AND IN-HOUSE TEAMS</h3></span>
+            <span><p style="text-align: left;">Once you have found the matchs, you can easily apply to the jobs that suits you the best via the convenitent web form and even submit your previously uploaded resume to save time</p></span><br/>
+            <button><span><b>Search Now</b></span></button>
+        </div>
+            
+            <div id="circle1">
+                <b>LATEST TECHNO LOGYS</b>
+            
+            </div>
+            <div id="circle2">
+                <b>WE'RE<br> BEST</b>
+            
+            </div>
+             
+        </div>
+    </div>
+</div>
+    
+    <!--- job listing 2 ---> 
+    
+    <div class="container">
+    <div id="featuredjob">
+    	
+        <h3 class="text-center" style="font-size:25px;"><b>BROWSE SOME OF THE FEATURED JOBS</b></h3>
+    	<p class="text-center">Every single one of our job have some kind of flexibity option - such as telecommuting, a part-time schedule or a flexible or flextime schedule.</p>
+    </div>
+    <div class="showcase2">
+        <table class="table"> 
+            <tr>
+<div class="col-md-4">
+    <div id="box1">
+    	<div id="job1"><br/>
+    	<h5 style="margin-right: 55%;"><b>GRAPHIC DESIGNER</b></h5>
+    	<p style="margin-right: 50%;">London, United Kingdom</p><hr/>
+    	<span style="margin-left: 2%;">10 monthsago     Fulltime</span>
+    	<button>View</button><hr/>
+    	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div id="box2">
+    	<div id="job2"><br/>
+    	<h5 style="margin-right: 50%;"><b>SOFTWARE ENGINEER</b></h5>
+    	<p style="margin-right: 50%;">London, United Kingdom</p><hr/>
+    	<span style="margin-left: 2%;">10 monthsago Parktime</span>
+    	<button>View</button><hr/>
+    	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div id="box3">
+    	<div id="job3"><br/>
+    	<h5 style="margin-right: 50%;"><b>MANAGING DIRECTOR</b></h5>
+    	<p style="margin-right: 50%;">London, United Kingdom</p><hr/>
+    	<span style="margin-left: 2%;">10 monthsago Fulltime</span>
+    	<button>View</button><hr/>
+    	</div>
+    </div>
+</div>
+      </tr>
+    <tr>
+<div class="row"></div>
+<div class="col-md-4">
+    <div id="box4">
+    	<div id="job4"><br/>
+    	<h5 style="margin-right: 55%;"><b>GRAPHIC DESIGNER</b></h5>
+    	<p style="margin-right: 50%;">London, United Kingdom</p><hr/>
+    	<span style="margin-left: 2%;">10 monthsago Fulltime</span>
+    	<button>View</button><hr/>
+    	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div id="box5">
+    	<div id="job5"><br/>
+    	<h5 style="margin-right: 50%;"><b>SOFTWARE ENGINEER</b></h5>
+    	<p style="margin-right: 50%;">London, United Kingdom</p><hr/>
+    	<span style="margin-left: 2%;">10 monthsago Parktime</span>
+    	<button>View</button><hr/>
+    	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div id="box6">
+    	<div id="job6"><br/>
+    	<h5 style="margin-right: 50%;"><b>MANAGING DIRECTOR</b></h5>
+    	<p style="margin-right: 50%;">London, United Kingdom</p><hr/>
+    	<span style="margin-left: 2%;">10 monthsago Fulltime</span>
+    	<button>View</button><hr/>
+    	</div>
+    </div>
+</div>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="text-center">
+        <div id="loadmore2">
+            <button type="button" class="btn btn-default">View more</button>
+    	</div>
+</div>
+    <br/><br/>
+    
+    <!--- registration   --->
+    
+     <div class="container-fluid"> 
+      
+       <div class="showcase3">
+         <div class="container"> 
+        <h3 style="font-size:35px;"><b> EASIEST WAY TO USE</b></h3><br/>
+        <p style="font-size:17px;">Jobs has some kind of flexability option - such as telecommuting, a part-time Every single one of our jobs.</p>
+    <div id="dottedline">
+    	<img src="images/dotted-line2.jpg"  alt="dottedline"/>
+    </div>
+        <div id="iconbuttons">
+            <button><img src="images/writingpad.jpg"  alt="writingpad"/></button>
+            <p>FIRST STEP</p>
+            <b>Register with us</b>
+            </div>
+                <div id="iconbuttons">
+                <button><img src="images/writingpad2.jpg"  alt="writingpad"/></button>
+                <p>SECOND STEP</p>
+                <b>Create your profile</b>
+                </div>
+            <div id="iconbuttons">
+            <button><img src="images/rocket.jpg"  alt="writingpad"/></button>
+            <p>THIRD STEP</p>
+            <b>Upload your resume</b>
+        </div>
+    </div>
+ </div>        
+</div>
+    
+    <!--- reviews  --->
+    
+    
+<div class="container"> 
+    <div class="lastcontent">
+        <h2 class="text-center"> WHAT PEOPLE SAY </h2>
+        <div class="row">
+        <div class="col-md-6">
+        
+            <div id="review1">
+        <span id="box1"></span>
+        <p style="font-size:15px; text-align: left; font-family: Nunito-ExtraBold, sans-serif; ">Fusce id viverra lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vestibulum tortor tristique, semper dolor finibus, elementum libero. Donec at fermentum quam. Proin vel dui eros.</p><br/>
+        <h5 style= "text-align: left"><b style="font-size:15px; text-align: left;">ERICK OSLON</b></h5>
+        <p style="color:blue; font-size:13px; text-align: left;">Media Adviser</p>
+        <span>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            
+        </span>
+    </div>
+</div>
+
+        <div class="col-md-6">
+    <div id="review2">
+        <span id="box2"></span>
+           <p style="font-size:15px; text-align: left">Fusce id viverra lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vestibulum tortor tristique, semper dolor finibus, elementum libero. Donec at fermentum quam. Proin vel dui eros.</p><br/>
+            <h5 style= "text-align: left";><b style="font-size:15px; text-align: left;">ERICK OSLON</b></h5>
+            <p style="color:blue; font-size:13px; text-align: left;">Media Adviser</p>
+            <span>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </span>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    
+     <!--- socail media companies 2  --->
+    
+    <div class="container">
+        <div class="bottomicons">
+        <div class="text-center">
+        <a href="#"><img src="images/icon-sourcecrew.jpg" width="154" height="42" alt="disque icon"/></a>
+        <a href="#"><img src="images/icon-forte.jpg" width="134" height="40" alt="optimizely icon"/></a>
+        <a href="#"><img src="images/icon-cybnetics.jpg" width="152" height="44" alt="dribbble icon"/></a>
+        <a href="#"><img src="images/icon-expresslab.jpg" width="118" height="60" alt="desk icon"/></a>
+        <a href="#"><img src="images/icon-global-biomimicry.jpg" width="156" height="55" alt="dolby icon"/></a>
+        </div>
+    </div>
+</div>
+    
+    <!--- company logos  --->
+    
+    <footer>
+        <div class="container">
+        <div class="col-md-6">
+        <div class="footersection">
+            <img id="logo" src="images/logo-portfolio1.jpg" width="155" height="46" alt="job seeker logo"/>
+        <div id="para">
+            <p style= "text-align: left";>Queequeg removed himself to just beyond the head of the sleeper, and lighted his tomahawk. We kept the pipe passing over the sleeper from one to the other.</p>
+       </div >
+            <div id="footerimg" >
+                <a href="#"><img src="images/icon-apple.jpg" width="155" height="46" alt="job seeker logo"/></a>
+           
+                <a href="#"><img src="images/icon-google-play.jpg" width="155" height="46" alt="job seeker logo"/></a>
+            </div>
+        </div>
+      </div>      
+            
+            <!--- links  --->
+            
+            
+        <div class="col-md-2" >
+        <section class="links" >
+            <span><h5 style= "text-align: left";>QUICK LINKS</h5></span>
+            <ul>
+                <li style= "text-align: left";><a>About Us</a></li>
+                <li style= "text-align: left";><a>Support</a></li>
+                <li style= "text-align: left";><a>Lincense</a></li>
+                <li style= "text-align: left";><a>Affiliate</a></li>
+                <li style= "text-align: left";><a>Pricing</a></li>
+                <li style= "text-align: left";><a>Terms & Conditions</a></li>
+                <li style= "text-align: left";><a>Contact</a></li>
+            </ul>
+        </section>
+       </div>     
+            <div class="col-md-2">
+        <section class="links2">
+            <span><h5 style= "text-align: left";>TRENDING JOBS</h5></span>
+            <ul>
+                <li style= "text-align: left";><a>Andriod Developer</a></li>
+                <li style= "text-align: left";><a>Senior Teamleader</a></li>
+                <li style= "text-align: left";><a>iOS Developer</a></li>
+                <li style= "text-align: left";><a>Junior Tester</a></li>
+                <li style= "text-align: left";><a>Full Stack Developer</a></li>
+            </ul>
+        </section>
+      </div>   
+            
+            <!--- social media icons  --->
+            
+            
+        <div class="col-md-2">
+        <section class="links3">
+            <span><h5>FOLLOW US</h5></span>
+            <ul>
+                <li><a href="#"><img src="images/icon-facebook.jpg" width="152" height="35" alt="facebook logo"/></a></li>
+                <li><a href="#"><img src="images/icon-twitter.jpg" width="152" height="35" alt="twitter logo"/></a></li>
+                <li><a href="#"><img src="images/icon-google-plus.jpg" width="152" height="35" alt="googleplus logo"/></a></li>
+            </ul>
+        </section>
+      </div>  
+            <div class="row"></div>
+        <div id=copyrights><hr>
+        <p class="text-center">&copy; 2016 Copyrights. All rights reserved.</p>
+        </div> 
+            </div>
+    </footer>
+        
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>		
